@@ -1,7 +1,7 @@
 # bitcoin_spv #
 
 ## In a nutshell ##
-A naïve implementation of Simplified Payment Verification (bitcoin) using bloom filters.
+A naïve implementation of Bitcoin Simplified Payment Verification using bloom filters.
 
 This project helped me to gain a better understanding of bitcoin technology.
 
@@ -18,7 +18,7 @@ In this project a [fork](https://github.com/SilvioMessi/python-bitcoinlib) of th
 
 ## Features ##
 * Client to download the Bitcoin block chain (only headers)
-* Client to analyze the Bitcoin block chain, using SPV and bloom filters, in order to find your transaction
+* Client to analyze the Bitcoin block chain, using SPV and bloom filters, in order to find your transactions
 
 __NOTE__: Probably you will have to customize the code used for import the private key if you have exported the key from a wallet different from Bitcoin Core (0.16.0). Please refer at the extensive comment in the file data_store/keys.py.
 
